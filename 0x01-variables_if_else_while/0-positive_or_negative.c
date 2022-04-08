@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes here
- *
+
+/* 
  * main - Entry point 
  *
  * Return: Always 0 (Success)
@@ -16,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
