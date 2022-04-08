@@ -4,7 +4,7 @@
 
 /*
  * main - assigns a random number to int n everytime
- *
+ * it executes the program
  * Return: Always 0 (Success)
  * Betty style doc for function main goes there
  */
