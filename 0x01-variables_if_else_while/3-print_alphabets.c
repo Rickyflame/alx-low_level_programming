@@ -4,7 +4,7 @@
  * As well as in uppercase
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char ch;
 	
