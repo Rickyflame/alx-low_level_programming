@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main prints all possible combinations 
+ * main - prints all possible combinations
  * of three digit values
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (l = 50; l < 58; l++)
 			{
-				if (l > m && m> n)
+				if (l > m && m > n)
 				{
 					putchar(n);
 					putchar(m);
