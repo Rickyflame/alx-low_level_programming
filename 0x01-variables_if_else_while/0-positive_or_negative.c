@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - assigns a random number to int n everytime
  * it executes the program
  * Return: Always 0 (Success)
  * Betty style doc for function main goes there
  */
+
 int main(void)
 {
 	int n;
