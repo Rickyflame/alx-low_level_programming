@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* 
- * main - Entry point 
+/*
+ * main - assigns a random number to int n everytime
  *
  * Return: Always 0 (Success)
  * Betty style doc for function main goes there
