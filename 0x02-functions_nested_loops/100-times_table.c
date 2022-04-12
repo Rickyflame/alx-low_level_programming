@@ -13,11 +13,12 @@ int powB(int base, int power)
 	for (i = 0; i < power; i++)
 	{
 		prod = prod * base;
-	}return (prod);
+	}
+	return (prod);
 }
 
 /**
- * nunlength - returns the length of a string
+ * numlength - returns the length of a string
  * @n: operand number
  * Return: number of digits
  */
@@ -86,7 +87,7 @@ void putnchar(int num)
  * print_times_table - prints multiplication table for each factor of n
  * @n: integer n
  */
-void Print_time_table(int n)
+void Print_times_table(int n)
 {
 	int i, j, prod, m;
 
