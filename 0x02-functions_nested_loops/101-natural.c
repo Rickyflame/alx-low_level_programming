@@ -46,13 +46,13 @@ int numlength(int num)
  */
 void putnchar(int num)
 {
-	int length = numlength(num), j = length -1, k, tmp2, digit1;
+	int length = numlength(num), j = length - 1, k, tmp2, digit1;
 
-	if (num ==0)
+	if (num == 0)
 		_putchar(48);
 	else
 	{
-		while (j >=0)
+		while (j >= 0)
 		{
 			if (num % powB(10, j) == 0 && j != 0)
 			{
