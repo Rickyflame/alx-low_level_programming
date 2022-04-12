@@ -4,7 +4,7 @@
  * print_to_98 - prints every number from n to 98
  * @n: starting number
  */
- void print_to_98(int n)
+void print_to_98(int n)
 {
 	int i;
 
@@ -14,7 +14,7 @@
 		{
 			printf("%i, ", i);
 		}
-	}else
+	} else
 	{
 		for (i = n; i > 98; i--)
 		{
