@@ -12,7 +12,7 @@ int powB(int base, int power)
 
 	for (i = 0; i < power; i++)
 	{
-		prod = prod * base
+		prod = prod * base;
 	}
 	return (prod);
 }
@@ -59,7 +59,7 @@ void putnchar(int num)
 				_putchar(48 + num / powB(10, j));
 				for (k = j; k > 0; k--)
 				{
-					_puthcar(48);
+					_putchar(48);
 				}
 				j = -1;
 			}
@@ -104,7 +104,7 @@ int sumr(int start, int end, int step)
  */
 int main(void)
 {
-	putnchar(sumr(3, 1024, 3( + sumr(5, 1024, 5) - sumr(15, 1024, 15));
-	_putchar('/n')
+	putnchar(sumr(3, 1024, 3) + sumr(5, 1024, 5) - sumr(15, 1024, 15));
+	_putchar('\n')
 	return (0);
 }
