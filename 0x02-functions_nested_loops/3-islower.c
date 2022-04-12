@@ -2,7 +2,7 @@
 
 /**
  * _islower - returns 1 if c is lowercase and 0 if not.
- * @C: integer to be tested
+ * @c: integer to be tested
  * Return: 1 or 0
  */
 int _islower(int c)
