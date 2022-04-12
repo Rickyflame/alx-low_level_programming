@@ -27,3 +27,6 @@ void jack_bauer(void);
 
 /* function that prints the multiplication table of 9*/
 void times_table(void);
+
+/* function that add two integers*/
+int add(int, int);
