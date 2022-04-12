@@ -24,3 +24,6 @@ int print_last_digit(int);
 
 /* functionthat prints every minute of the day*/
 void jack_bauer(void);
+
+/* function that prints the multiplication table of 9*/
+void times_table(void);
