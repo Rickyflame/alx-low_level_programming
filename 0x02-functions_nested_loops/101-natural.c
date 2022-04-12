@@ -105,6 +105,6 @@ int sumr(int start, int end, int step)
 int main(void)
 {
 	putnchar(sumr(3, 1024, 3) + sumr(5, 1024, 5) - sumr(15, 1024, 15));
-	_putchar('\n')
+	_putchar('\n');
 	return (0);
 }
