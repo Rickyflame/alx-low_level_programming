@@ -33,3 +33,6 @@ int add(int, int);
 
 /* function that prints all natural numbers*/
 void print_to_98(int n);
+
+/* function that prints the n times table*/
+void print_times_table(int n);
