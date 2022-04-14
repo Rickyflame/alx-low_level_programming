@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - checks if c is uppercase or lowercase
- * @c: representation of the character
+ * _isupper - checks if characher is uppercase
+ * @c: represents the character
  * Return: 1 or 0
  */
-int _isupper(int c)
+int _isupper(void)
 {
-	return(c >= 65 && c <= 90);
+	return (c >= 65 && c <= 90);
 }
