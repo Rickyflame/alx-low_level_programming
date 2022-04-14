@@ -5,7 +5,7 @@
  * @c: represents the character
  * Return: 1 or 0
  */
-int _isupper(void)
+int _isupper(int c)
 {
 	return (c >= 65 && c <= 90);
 }
