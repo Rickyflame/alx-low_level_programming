@@ -9,3 +9,6 @@ int mul(int a, int b);
 
 /*function that prints the numbers 0 to 9*/
 void print_numbers(void);
+
+/*function that prints the numbers*/
+void print_most_numbers(void);
