@@ -24,3 +24,6 @@ void print_diagonal(int n);
 
 /*print the squares*/
 void print_square(int size);
+
+/*function prints a triangle*/
+void print_triangle(int size);
