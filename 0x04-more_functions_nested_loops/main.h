@@ -1,3 +1,6 @@
+/*prints _putchar*/
+int _putchar(char c);
+
 /* function checks for uppercase letters*/
 int _isupper(int c);
 
