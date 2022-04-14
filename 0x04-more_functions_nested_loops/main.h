@@ -14,4 +14,4 @@ int mul(int a, int b);
 void print_numbers(void);
 
 /*function that prints the numbers*/
-void print_most_numbers(void);
+void more_numbers(void);
