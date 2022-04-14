@@ -2,7 +2,8 @@
 
 /**
  * _putchar - prints the numbers
- * Return: Always 0
+ *
+ * Void : has no return
  */
 void print_numbers(void)
 {
