@@ -27,3 +27,6 @@ void print_square(int size);
 
 /*function prints a triangle*/
 void print_triangle(int size);
+
+/*function prints an integer*/
+void print_number(int n);
