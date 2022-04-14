@@ -15,3 +15,6 @@ void print_numbers(void);
 
 /*function that prints the numbers*/
 void more_numbers(void);
+
+/*function that draws a straight line*/
+void print_line(int n);
