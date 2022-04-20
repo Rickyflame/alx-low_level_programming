@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 		if (*(src + count) == '\0')
 		{
 			break;
-			
+
 		}
 		count++;
 	}
