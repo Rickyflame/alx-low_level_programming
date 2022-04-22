@@ -13,3 +13,6 @@ char *_strncpy(char *dest, char *src, int n);
 /*function that compares two strings*/
 int _strcmp(char *s1, char *s2);
 
+/* function that reverses the content of an array*/
+void reverse_array(int *a, int n);
+
