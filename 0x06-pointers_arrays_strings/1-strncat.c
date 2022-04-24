@@ -3,9 +3,9 @@
 /**
  * _strncat - concatenates two strings
  * @dest: first char
- * @arc: second char
+ * @src: second char
  * @n: integer
- * Retuirn: void
+ * Return: the pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
