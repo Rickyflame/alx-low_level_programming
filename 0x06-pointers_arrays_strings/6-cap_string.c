@@ -12,7 +12,7 @@ char *cap_string(char *s)
 
 	if (*(s + count) >= 97 && *(s + count) <= 122)
 	{
-		*(s + count) = *(s + count) -32;
+		*(s + count) = *(s + count) - 32;
 	}
 	count++;
 	while (*(s + count) != '\0')
