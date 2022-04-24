@@ -22,4 +22,6 @@ char *string_toupper(char *);
 /* funtion that capitalizes all words of a string*/
 char *cap_string(char *);
 
+/*function that encodes a string into */
+char *leet(char *);
 
