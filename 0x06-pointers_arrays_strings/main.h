@@ -25,3 +25,6 @@ char *cap_string(char *);
 /*function that encodes a string into */
 char *leet(char *);
 
+/*function that encodes a string*/
+char *rot13(char *);
+
