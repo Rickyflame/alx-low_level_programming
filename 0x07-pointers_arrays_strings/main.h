@@ -16,3 +16,5 @@ unsigned int _strspn(char *s, char *accept);
 /*finctuon that searches a string for any of a set of bytes*/
 char *_strpbrk(char *s, char *accept);
 
+/*funtion htat locates a substring*/
+char *_strstr(char *haystack, char *needle);
