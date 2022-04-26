@@ -22,3 +22,6 @@ char *_strstr(char *haystack, char *needle);
 /*funciton that prints the chessboard*/
 void print_chessboard(char (*a)[8]);
 
+/*function that prints the sum of the diagonals of a square matrix*/
+void print_diagsums(int *a, int size);
+
