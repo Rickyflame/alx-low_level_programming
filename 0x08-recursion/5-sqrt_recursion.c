@@ -4,6 +4,7 @@
  * find_root - finds the squareroot of a number
  * @val: the value to find the squareroot
  * @root: root to be tested
+ * Return: returns the value of find_root
  */
 int find_root(int val, int root)
 {
