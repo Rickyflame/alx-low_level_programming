@@ -25,3 +25,5 @@ int is_prime_number(int n);
 /*function returns 1*/
 int is_palindrome(char *s);
 
+/*function that compares two strings*/
+int wildcmp(char *s1, char *s2);
