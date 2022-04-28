@@ -19,3 +19,6 @@ int _pow_recursion(int x, int y);
 /*function that returns the natural square root*/
 int _sqrt_recursion(int n);
 
+/*function returns 1 of the input is a prime number*/
+int is_prime_number(int n);
+
