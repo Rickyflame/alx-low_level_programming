@@ -22,3 +22,6 @@ int _sqrt_recursion(int n);
 /*function returns 1 of the input is a prime number*/
 int is_prime_number(int n);
 
+/*function returns 1*/
+int is_palindrome(char *s);
+
