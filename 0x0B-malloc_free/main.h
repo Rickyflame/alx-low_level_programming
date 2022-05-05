@@ -10,3 +10,6 @@ char *_strdup(char *str);
 /* function that concatenates two strings*/
 char *str_concat(char *s1, char *s2);
 
+/* function that returns a pointer to a 2 dimentional array of integer*/
+int **alloc_grid(int width, int height);
+
