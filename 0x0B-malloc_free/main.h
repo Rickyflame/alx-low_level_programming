@@ -16,3 +16,6 @@ int **alloc_grid(int width, int height);
 /*function that frees a 2 dimentional grid previously created*/
 void free_grid(int **grid, int height);
 
+/*function  htat concatenates all the arguments of your program*/
+char *argstostr(int ac, char **av);
+
