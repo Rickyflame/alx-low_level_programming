@@ -19,3 +19,6 @@ void free_grid(int **grid, int height);
 /*function  htat concatenates all the arguments of your program*/
 char *argstostr(int ac, char **av);
 
+/*function that splits a string into words*/
+char **strtow(char *str);
+
