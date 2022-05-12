@@ -13,7 +13,7 @@ char *copy(char *src)
 
 	if (src == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	for (len = 0; src[len] != '\0'; len++)
@@ -36,7 +36,7 @@ char *copy(char *src)
  * @name: name of the new dog
  * @age: age of the new dog
  * @owner: new name of the owner
- * return: returns the name and owner of the dog
+ * Return: returns the name and owner of the dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
