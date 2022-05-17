@@ -1,9 +1,4 @@
 #include "variadic_functions.h"
-#ifndef VARIADIC_FUNCTIONS_H
-#define VARIADIC_FUNCTIONS_H
-
-#include <stdarg.h>
-#include <stdio.h>
 
 /* putchar function*/
 int _putchar(char c);
@@ -18,6 +13,4 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 
 /*function that prints anything*/
-void print_all(const char * const format, ...);
-
-#endif
+void print_all(const char * const format, ...)
