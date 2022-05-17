@@ -1,5 +1,5 @@
-#ifndef VARIADIC_FUNCTIONS_
-#define VARIADIC_FUNCTIONS_
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -15,5 +15,8 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 
 /* function that prints strings, followed by a new line*/
 void print_strings(const char *separator, const unsigned int n, ...);
+
+/*function that prints anything*/
+void print_all(const char * const format, ...);
 
 #endif
