@@ -1,4 +1,5 @@
-#include <stddef.h>
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
 /*putchar*/
 int _putchar(char c);
@@ -12,3 +13,4 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 /*function that searches for an integer*/
 int int_index(int *array, int size, int (*cmp)(int));
 
+#endif
