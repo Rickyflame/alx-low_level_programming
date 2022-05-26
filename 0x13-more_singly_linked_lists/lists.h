@@ -34,4 +34,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 /*function that frees a list*/
 void free_listint(listint_t *head);
 
+/*function that free a list*/
+void free_listint2(listint_t **head);
+
 #endif
