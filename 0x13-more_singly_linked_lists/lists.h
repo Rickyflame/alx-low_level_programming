@@ -25,4 +25,7 @@ size_t print_listint(const listint_t *h);
 /*function that returns the number of elements in a linked list*/
 size_t listint_len(const listint_t *h);
 
+/*function that returns the new node at the beginning of a list*/
+listint_t *add_nodeint(listint_t **head, const int n);
+
 #endif
