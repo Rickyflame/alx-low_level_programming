@@ -31,4 +31,7 @@ listint_t *add_nodeint(listint_t **head, const int n);
 /*function that add a new node at the end of a list*/
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
+/*function that frees a list*/
+void free_listint(listint_t *head);
+
 #endif
