@@ -58,4 +58,6 @@ listint_t *reverse_listint(listint_t **head);
 /*Write a function that prints a listint_t linked list.*/
 size_t print_listint_safe(const listint_t *head);
 
+size_t free_listint_safe(listint_t **h);
+
 #endif
