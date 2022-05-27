@@ -42,4 +42,7 @@ int pop_listint(listint_t **head);
 
 /*function that returns the nth node of a linked list*/
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+/*function that returns the sum of all data*/
+int sum_listint(listint_t *head);
+
 #endif
