@@ -23,7 +23,7 @@ int _strncmp(const char *s1, const char *s2, size_t n)
 	{
 		if (*s1)
 			return (1);
-		if (*S2)
+		if (*s2)
 			return (-1);
 	}
 	return (0);
@@ -104,7 +104,7 @@ size_t elf_class(const unsigned char *buffer)
  */
 int elf_data(const unsigned char *buffer)
 {
-	printf("	%-34s ", "Data:");
+	printf(" %-34s ", "Data:");
 
 	if (buffer[EI_DATA] == ELDATA2MSB)
 	{
@@ -170,15 +170,6 @@ void elf_osabi(const unsigned char *buffer)
 void elf_abivers(const unsigned char *buffer)
 {
 	printf(" %-34s %u\n", "ABI Version:", buffer[EI_ABIERSION]);
-}
-/**
- * elf_type - print ELF type
- * @buffer: the ELF header
- * Return: void has no return value
- */
-void elf_type(const unsigned char *buffer)
-{
-	printf(" %-34s %u\n", "ABI Version:", buffer[EI_ABIVERSION]);
 }
 /**
  * elf_type - print ELF type
